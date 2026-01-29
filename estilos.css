@@ -1,0 +1,405 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #09090B;
+}
+
+header {
+    width: 375px;
+    height: 56px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    border-bottom: 1px solid #27272A
+}
+
+.escondido span {
+    overflow: hidden;
+}
+
+.headerizq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.headerizq img {
+    width: 20;
+    height: 23;
+}
+
+.headerizq span {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+
+.headerder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.headerder p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color:#FFFFFF;
+}
+
+.headerder button{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #18181B;
+    background-color: white;
+    width: 69px;
+    height: 32px;
+    border-radius: 6px;
+    border: none;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.infoimportante {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 311px;
+    height: 348px;
+    margin-top: 44px;
+}
+
+.infoimportante h1{
+    color: #FAFAFA;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1.2%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.infoimportante p{
+    color: #D9D9D9;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.empieza button, .Contacta button{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    width: 122px;
+    height: 32px;
+    gap: 8px;
+    border-radius: 6px;
+    background-color: #FAFAFA;
+    border: none;
+}
+
+.empieza {
+    margin-left: 90px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.estadistica {
+    margin-left: 10px;
+}
+
+.estadistica img {
+    width: 311px;
+    height: 192px;
+    border-radius: 4px;
+}
+
+.Solucionesdiv, .Soluciones {
+    margin-left: 10px;
+    margin-top: 64px;
+    gap: 24px;
+}
+
+.Soluciones h2 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.75%;
+    text-align: center;
+    color: #FAFAFA;
+}
+
+.Solucion1, .Solucion2 {
+    margin-bottom: 48px;
+}
+
+.Solucion1, .Solucione2 {
+    width: 288px;
+    height: 220px;
+    gap: 24px;
+}
+
+.Solucion3 {
+    width: 288;
+    height: 192;
+    margin-bottom: 96px;
+}
+
+.Solucion1 h3, .Solucion2 h3, .Solucion3 h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6%;
+    color: #D9D9D9;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.Solucion1 img, .Solucion2 img, .Solucion3 img {
+    width: 56px;
+    height: 56px;
+}
+
+.Solucion1 p, .Solucion2 p, .Solucion3 p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #D9D9D9;
+}
+
+.Setup {
+    margin-left: 10px;
+    width: 311px;
+    height: 192px;
+    border-radius: 4px;
+}
+
+.Setup h2 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.75%;
+    text-align: center;
+    color: #FAFAFA;
+    margin-bottom: 24px;
+}
+
+.Setup p {
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#D9D9D9;
+}
+
+.Setup img {
+    width: 311px;
+    height: 192.11px;
+}
+
+.Contacta {
+    margin-top: 270px;
+    width: 311px;
+    height: 146px;
+    gap: 24px;
+    margin-bottom: 96px;
+}
+
+.Contacta h1 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1.2%;
+    text-align: center;
+    color: #FAFAFA;
+}
+
+.Contacta h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FAFAFA;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.Contacta button {
+    margin-left: 90px;
+}
+
+footer {
+    width: 375px;
+    height: 48px;
+    border-top-width: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid #27272A
+}
+
+.Pie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    color: #FFFFFF;
+}
+
+.Servicios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    color: #D9D9D9;
+}
+
+@media (width>=1399px) {
+    header {
+        width: 1440px;
+        height: 48px;
+    }
+
+    .escondido {
+        overflow: visible;
+    }
+
+    main {
+        margin-left: 350px;
+        margin-right: 250px;
+        align-items: center;
+        justify-content: center;
+        width: 1240px;
+        height: 2694px;
+        margin-top: 144px;
+    }
+
+    .estadistica{
+        padding-left: 200px;
+    }
+
+    .infoimportante {
+        width: 672px;
+        height: 156px;
+    }
+
+    .infoimportante p {
+        width: 672px;
+        height: 36px;
+        margin-bottom: 48px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+    .Soluciones {
+        padding-right: 550px;
+
+    }
+
+
+    .Solucionesdiv {
+        width: 960px;
+        height: 316px;
+        margin-bottom: 120px;
+        display: flex;
+    }
+
+    .Solucion1 p, .Solucion2 p {
+        width: 288px;
+        height: 84px;
+    }
+
+    .Solucion3 p {
+        width: 288px;
+        height: 56px;
+    }
+
+    .Solucion h2{
+        margin-right: 600px;
+    }
+
+    .Solucion1, .Solucion2, .Solucion3 {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .empieza {
+        margin-top: 48px;
+        padding-left: 190px;
+    }
+
+    .Setup {
+        padding-left: 100px;
+        width: 672px;
+        height: 595px;
+
+    }
+
+    .Setup h1 {
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -1.2%;
+        text-align: center;
+    }
+
+    .Setup h5 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: center;
+        width: 672px;
+        height: 36px;
+    }
+
+    .Setup img {
+        margin-left: 120px;
+    }
+
+    .Contacta {
+        margin-top: 120px;
+        margin-left: 180px;
+
+    }
+
+    footer {
+        width: 1440px;
+        height: 48px;
+        justify-content: space-between;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    /* La versión de pc la he mirado en la resolución 1440 x 1080 */
+
+}
