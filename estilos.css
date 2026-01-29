@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 
-body {
+body, footer {
     background-color: #09090B;
+    font-family: "Inter", sans-serif;
+
 }
 
 header {
@@ -302,6 +304,7 @@ footer {
 
     .estadistica{
         padding-left: 200px;
+        margin-top: 50px;
     }
 
     .infoimportante {
